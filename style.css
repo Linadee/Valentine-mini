@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ body::before {
 
 h1 {
     color:darkred;
-    font-size: 40px;
+    font-size: 3rem;
     font-family: cursive;
     font-weight: bold;
     text-shadow: 0 4px 15px rgba(0,0,0,0.15);
@@ -68,8 +68,7 @@ button:active {
             }
 
  #no {
-   
-    
- }
+   transition: all 0.2s ease;
+    }
 
  

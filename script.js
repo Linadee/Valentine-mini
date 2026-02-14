@@ -22,6 +22,7 @@ function createHeart() {
 
 const noButton = document.getElementById("no");
 
+noButton.addEventListener("click", moveButton);
 noButton.addEventListener("mouseenter", moveButton);
  function moveButton () {
     noButton.style.position = "absolute";
@@ -29,6 +30,7 @@ noButton.addEventListener("mouseenter", moveButton);
     noButton.style.top = Math.random() * 80 + "%";
     console.log("Moving");
  }
+ 
 
 setTimeout(() => {
     heart.remove();
