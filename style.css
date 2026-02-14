@@ -19,8 +19,7 @@ body::before {
 
 h1 {
     color:darkred;
-    font-size: 3rem;
-    font-family: cursive;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
     font-weight: bold;
     text-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
@@ -39,7 +38,7 @@ button {
 .heart {
     position: fixed;
     bottom: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
     animation: floatUp 2s linear forwards;
 }
 

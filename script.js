@@ -31,7 +31,3 @@ noButton.addEventListener("mouseenter", moveButton);
     console.log("Moving");
  }
  
-
-setTimeout(() => {
-    heart.remove();
-}, 3000);
